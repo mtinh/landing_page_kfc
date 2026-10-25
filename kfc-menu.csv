@@ -1,0 +1,10 @@
+﻿id,ten_san_pham,danh_muc,gia_vnd,don_vi,best_seller,mo_ta,hinh_anh,url_chi_tiet
+ga-ran,Gà rán,Gà rán,40000,phần,FALSE,"Gà rán giòn thơm, vàng ruộm.",images/fried-chicken.svg,product.html?id=ga-ran
+ga-ran-cay,Gà rán cay,Gà rán,45000,phần,TRUE,"Gà rán cay giòn rụm, đậm đà.",images/fried-chicken.svg,product.html?id=ga-ran-cay
+khoai-tay-chien,Khoai tây chiên,Ăn kèm,20000,phần,FALSE,Khoai tây chiên vàng giòn.,images/french-fries.svg,product.html?id=khoai-tay-chien
+hamburger-ga,Hamburger gà,Hamburger,50000,cái,FALSE,Burger nhân gà thơm ngon.,images/burger.svg,product.html?id=hamburger-ga
+hamburger-bo,Hamburger bò,Hamburger,50000,cái,FALSE,Burger nhân bò đậm vị.,images/burger.svg,product.html?id=hamburger-bo
+hamburger-tom,Hamburger tôm,Hamburger,50000,cái,FALSE,Burger nhân tôm hấp dẫn.,images/burger.svg,product.html?id=hamburger-tom
+pepsi,Pepsi,Nước ngọt,10000,ly,FALSE,Pepsi mát lạnh.,images/pepsi.svg,product.html?id=pepsi
+coca-cola,Coca Cola,Nước ngọt,10000,ly,FALSE,Coca Cola mát lạnh.,images/pepsi.svg,product.html?id=coca-cola
+7up,7Up,Nước ngọt,10000,ly,FALSE,7Up vị chanh thanh mát.,images/pepsi.svg,product.html?id=7up

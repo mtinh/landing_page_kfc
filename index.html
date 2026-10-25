@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KFC demo - menu gà rán và món ăn nhanh">
+  <title>KFC | Gà rán giòn ngon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#home"><img src="images/logo.svg" alt="Logo KFC" width="55" height="55"> KFC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mở menu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto gap-lg-3"><li class="nav-item"><a class="nav-link" href="#home">Trang chủ</a></li><li class="nav-item"><a class="nav-link" href="#menu">Thực đơn</a></li><li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li><li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li></ul><a href="#menu" class="btn btn-kfc ms-lg-4">Đặt món ngay</a></div>
+    </div>
+  </nav>
+  <main>
+    <section id="home" class="hero py-5"><div class="container"><div class="row align-items-center g-5"><div class="col-lg-6"><span class="eyebrow">GIÒN RỤM TỪ MIẾNG ĐẦU TIÊN</span><h1 class="display-3 fw-black mt-3">Vị ngon <span class="red">khó cưỡng!</span></h1><p class="lead text-secondary my-4">Gà rán giòn tan, burger thơm ngon, khoai tây vàng ruộm và nước mát lạnh. Khám phá bữa ăn yêu thích của bạn ngay hôm nay!</p><a href="#menu" class="btn btn-kfc btn-lg px-5">Khám phá thực đơn →</a></div><div class="col-lg-6 text-center"><img class="hero-img img-fluid" src="images/colonel.svg" alt="Hình minh họa ông già KFC"></div></div></div></section>
+    <section id="menu" class="py-5"><div class="container"><div class="text-center mb-5"><span class="eyebrow">MÓN NGON MỖI NGÀY</span><h2 class="fw-bold display-6">Thực đơn nổi bật</h2><p class="text-secondary">Chọn món bạn yêu thích</p></div><div id="filters" class="d-flex gap-2 flex-wrap justify-content-center mb-4"></div><div class="row g-4" id="productList"></div></div></section>
+    <section id="about" class="about py-5"><div class="container text-center"><h2 class="fw-bold">Hương vị khiến bạn mỉm cười</h2><p class="mx-auto mb-0" style="max-width:650px">Từ những miếng gà giòn ngon đến combo tiện lợi, trang demo này giới thiệu các món ăn nhanh quen thuộc theo phong cách KFC.</p></div></section>
+  </main>
+  <footer id="contact" class="bg-dark text-white py-4"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 KFC Landing Page Demo</span><span>Website minh họa, không phải trang đặt hàng chính thức.</span></div></footer>
+  <div id="toast" class="toast-box" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script><script src="js/script.js"></script>
+</body>
+</html>
